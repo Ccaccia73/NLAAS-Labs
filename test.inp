@@ -1120,5 +1120,13 @@ loaded_nodes_internal,  3, 0.4
 ** HISTORY OUTPUT
 **
 *Output, history, variable=PRESELECT
+**
+** PRINT RESULTS TO FILE
+**
+*NODE PRINT
+U,
+RF,
+*EL PRINT
+S,
 *End Step
 
