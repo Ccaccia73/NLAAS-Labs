@@ -1123,10 +1123,10 @@ loaded_nodes_internal,  3, 0.4
 **
 ** PRINT RESULTS TO FILE
 **
-*NODE PRINT
+*NODE FILE
 U,
 RF,
-*EL PRINT
+*EL FILE
 S,
 *End Step
 
