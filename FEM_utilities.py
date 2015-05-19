@@ -48,3 +48,12 @@ def Nodes(nx, ny, l, w):
     
     return nodes, elements, constr_nodes, loaded_nodes
     
+    
+def NodesLab07(nx, ny, l, w):
+    nodes, elements, set_y0, set_yL = Nodes(nx, ny, l, w)
+    
+    set_x0 = np.arange(1,(nx+1)+1)
+    set_xW = np.arange((nx+1)*ny+1, (nx+1)*(ny+1)+1)
+    
+    return nodes, elements, set_y0, set_yL, set_x0, set_xW
+    
